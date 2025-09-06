@@ -1,0 +1,39 @@
+body{
+    background-color: #F5F5F5;
+}
+
+#menu{
+    background-color: #186451;
+}
+
+#carouselExampleAutoplay .carousel-item img{
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    shape-rendering: optimizeSpeed;
+}
+
+#btniniciosecion button{
+    background-color: #252525; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+#btnregistro button{
+    background-color: #252525;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
