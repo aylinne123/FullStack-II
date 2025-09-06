@@ -3,7 +3,18 @@ body{
 }
 
 #menu{
-    background-color: #186451;
+    background-color: #125544;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #carouselExampleAutoplay .carousel-item img{
@@ -36,4 +47,14 @@ body{
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 12px;
+}
+
+#btniniciosecion a, #btnregistro a{
+    text-decoration: none;
+    color: white;
+}
+
+#btniniciosecion button:hover, #btnregistro button:hover{
+    background-color: #125544;
+    transition: background-color 0.3s ease;
 }
