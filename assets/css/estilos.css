@@ -71,3 +71,13 @@ nav{
     cursor: pointer;
     border-radius: 12px;
 }
+
+#ir-a-product{
+    color: white;
+    text-decoration: none;
+}
+
+#btnIngresar{
+    color: white;
+    text-decoration: none;
+}

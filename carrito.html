@@ -27,7 +27,7 @@
                         </a>
                     </li>
                     <li class="nav-item p-3">
-                        <a href="">
+                        <a href="productos.html">
                             Productos
                         </a>
                     </li>
@@ -37,7 +37,7 @@
                         </a>
                     </li>
                     <li class="nav-item p-3">
-                        <a href="blog2.html">
+                        <a href="blogs.html">
                             Blogs
                         </a>
                     </li>
@@ -59,36 +59,7 @@
                         Productos
                     </div>
                     <ul class="list-group list-group-flush">
-                        <!-- Producto 1 -->
-                        <li class="list-group-item d-flex align-items-center justify-content-between flex-wrap">
-                            <div class="d-flex align-items-center">
-                                <img src="img/ftproducto5.jpg" width="50" height="50" class="rounded me-3" alt="Producto 1">
-                                <div>
-                                    <h6 class="mb-1">Producto 1</h6>
-                                    <small class="text-muted">Descripción breve</small>
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <input type="number" class="form-control form-control-sm me-2" value="1" min="1" style="width:70px;">
-                                <span class="me-3 fw-bold">$100</span>
-                                <button class="btn btn-danger btn-sm"><i class="bi bi-trash"></i></button>
-                            </div>
-                        </li>
-                        <!-- Producto 2 -->
-                        <li class="list-group-item d-flex align-items-center justify-content-between flex-wrap">
-                            <div class="d-flex align-items-center">
-                                <img src="img/fotoproducto2.jpg" width="50" height="50" class="rounded me-3" alt="Producto 2">
-                                <div>
-                                    <h6 class="mb-1">Producto 2</h6>
-                                    <small class="text-muted">Descripción breve</small>
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <input type="number" class="form-control form-control-sm me-2" value="2" min="1" style="width:70px;">
-                                <span class="me-3 fw-bold">$150</span>
-                                <button class="btn btn-danger btn-sm"><i class="bi bi-trash"></i></button>
-                            </div>
-                        </li>
+                        <!-- Aquí JS insertará los productos del carrito -->
                     </ul>
                 </div>
             </div>
@@ -101,16 +72,16 @@
                     <div class="card-body">
                         <p class="d-flex justify-content-between">
                             <span>Subtotal</span>
-                            <span>$400</span>
+                            <span aria-label="subtotal">$0</span>
                         </p>
                         <p class="d-flex justify-content-between">
                             <span>Envío</span>
-                            <span>$50</span>
+                            <span aria-label="envio">$0</span>
                         </p>
                         <hr>
                         <h5 class="d-flex justify-content-between">
                             <span>Total</span>
-                            <span>$450</span>
+                            <span aria-label="total">$0</span>
                         </h5>
                         <button class="btn btn-success w-100 mt-3">Finalizar Compra</button>
                         <div class="alert alert-warning mt-3 text-center" role="alert">

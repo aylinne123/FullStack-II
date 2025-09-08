@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <script src="assets/js/app.js"></script>
+</head>
+<body>
+    <div id="menu">
+        <nav class="navbar navbar-expand-lg ms-5"> 
+            <a class="nav-brand">
+                 <img src="img/baby_world_transparent.png" alt="Logo" width="200" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item ms-5 p-3">
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item p-3">
+                        <a href="">
+                            Productos
+                        </a>
+                    </li>
+                    <li class="nav-item p-3">
+                        <a href="nosotros.html">
+                            Nosotros
+                        </a>
+                    </li>
+                    <li class="nav-item p-3">
+                        <a href="blogs.html">
+                            Blogs
+                        </a>
+                    </li>
+                    <li class="nav-item p-3">
+                        <a href="contacto.html">
+                            Contacto
+                        </a>
+                    </li>
+                    <li class="nav-item ms-5 p-3">
+                        <a href="carrito.html">
+                        <i class="bi bi-cart"></i> Carrito
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="mb-4 text-center">Nuestros Productos para Bebés</h2>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/biberon.jpg" class="card-img-top" alt="Biberón Anticólicos">
+                    <div class="card-body">
+                        <h5 class="card-title">Biberón Anticólicos</h5>
+                        <p class="card-text">Biberón de 250ml con sistema anticólicos, ideal para recién nacidos.</p>
+                        <span class="badge bg-success">$120</span>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-primary btn-agregar-carrito" data-precio="120"><i class="bi bi-cart-plus"></i> Añadir</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/panal.jpg" class="card-img-top" alt="Pañales Ecológicos">
+                    <div class="card-body">
+                        <h5 class="card-title">Pañales Ecológicos</h5>
+                        <p class="card-text">Pañales reutilizables, suaves y amigables con el medio ambiente.</p>
+                        <span class="badge bg-success">$350</span>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-primary btn-agregar-carrito" data-precio="350"><i class="bi bi-cart-plus"></i> Añadir</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/coche.jpg" class="card-img-top" alt="Cochecito de Paseo">
+                    <div class="card-body">
+                        <h5 class="card-title">Cochecito de Paseo</h5>
+                        <p class="card-text">Cochecito ligero y plegable, perfecto para salidas diarias.</p>
+                        <span class="badge bg-success">$2,500</span>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-primary btn-agregar-carrito" data-precio="2500"><i class="bi bi-cart-plus"></i> Añadir</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/ropa.jpg" class="card-img-top" alt="Ropa de Algodón">
+                    <div class="card-body">
+                        <h5 class="card-title">Ropa de Algodón</h5>
+                        <p class="card-text">Conjunto de ropa 100% algodón, suave y cómoda para tu bebé.</p>
+                        <span class="badge bg-success">$220</span>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-primary btn-agregar-carrito" data-precio="220"><i class="bi bi-cart-plus"></i> Añadir</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/juguete.jpg" class="card-img-top" alt="Juguete Didáctico">
+                    <div class="card-body">
+                        <h5 class="card-title">Juguete Didáctico</h5>
+                        <p class="card-text">Juguete de colores para estimular el aprendizaje y la motricidad.</p>
+                        <span class="badge bg-success">$180</span>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-primary btn-agregar-carrito" data-precio="180"><i class="bi bi-cart-plus"></i> Añadir</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/monitor.jpg" class="card-img-top" alt="Monitor para Bebés">
+                    <div class="card-body">
+                        <h5 class="card-title">Monitor para Bebés</h5>
+                        <p class="card-text">Monitor inalámbrico con cámara y audio para mayor seguridad.</p>
+                        <span class="badge bg-success">$1,800</span>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-primary btn-agregar-carrito" data-precio="1800"><i class="bi bi-cart-plus"></i> Añadir</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/mordedera.jpg" class="card-img-top" alt="Mordedera de Silicona">
+                    <div class="card-body">
+                        <h5 class="card-title">Mordedera de Silicona</h5>
+                        <p class="card-text">Mordedera suave y segura para aliviar las encías del bebé.</p>
+                        <span class="badge bg-success">$90</span>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-primary btn-agregar-carrito" data-precio="90"><i class="bi bi-cart-plus"></i> Añadir</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/bañera.jpg" class="card-img-top" alt="Bañera Plegable">
+                    <div class="card-body">
+                        <h5 class="card-title">Bañera Plegable</h5>
+                        <p class="card-text">Bañera compacta y fácil de guardar, ideal para espacios pequeños.</p>
+                        <span class="badge bg-success">$650</span>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-primary btn-agregar-carrito" data-precio="650"><i class="bi bi-cart-plus"></i> Añadir</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white pt-4 pb-2 mt-5">
+        <div class="container text-center">
+            <div class="mb-3">
+                <a href="#" class="text-white me-3 fs-4">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="#" class="text-white me-3 fs-4">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="#" class="text-white me-3 fs-4">
+                    <i class="bi bi-twitter-x"></i>
+                </a>
+                <a href="#" class="text-white me-3 fs-4">
+                    <i class="bi bi-whatsapp"></i>
+                </a>
+            </div>
+            <div>
+                <small>&copy; 2025 BabyWorld. Todos los derechos reservados.</small>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
